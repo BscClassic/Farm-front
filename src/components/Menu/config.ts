@@ -22,6 +22,21 @@ const config: MenuEntry[] = [
     ]
   },
   {
+    label: 'Features',
+    icon: 'TradeIcon',
+    initialOpenState: true,
+    items: [
+      {
+        label: 'Limit Order',
+        href: 'https://features.bscclassic.org/'
+      },
+      {
+        label: 'Stop Loss',
+        href: 'https://features.bscclassic.org/'
+      }
+    ]
+  },
+  {
     label: 'Farms',
     icon: 'FarmIcon',
     href: 'https://farm.bscclassic.org/farms'
