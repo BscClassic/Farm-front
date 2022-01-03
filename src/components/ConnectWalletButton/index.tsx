@@ -8,7 +8,7 @@ const UnlockButton: React.FC<ButtonProps> = props => {
   const TranslateString = useI18n()
   const { account, activate, deactivate } = useWeb3React()
 
-  // const handleLogin = (connectorId: ConnectorId) => {
+   const handleLogin = (connectorId: ConnectorId) => {
   //  if (connectorId === 'walletconnect') {
   //    return activate(walletconnect)
   //  }
