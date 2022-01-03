@@ -9,11 +9,11 @@ const UnlockButton: React.FC<ButtonProps> = props => {
   const { account, activate, deactivate } = useWeb3React()
 
    const handleLogin = (connectorId: ConnectorId) => {
-  //  if (connectorId === 'walletconnect') {
-  //    return activate(walletconnect)
-  //  }
-  //  return activate(injected)
-  // }
+    if (connectorId === 'walletconnect') {
+      return activate(walletconnect)
+    }
+    return activate(injected)
+  }
 
   const { onPresentConnectModal } = useWalletModal(handleLogin, deactivate, account as string)
 
