@@ -36,16 +36,16 @@ const config: MenuEntry[] = [
       }
     ]
   },
-  {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: 'https://farm.bscclassic.org/farms'
-  },
-  {
-    label: 'Nests',
-    icon: 'PoolIcon',
-    href: 'https://farm.bscclassic.org/nests'
-  },
+  // {
+  //   label: 'Farms',
+  //   icon: 'FarmIcon',
+  //   href: 'https://farm.bscclassic.org/farms'
+  // },
+  // {
+  //   label: 'Nests',
+  //   icon: 'PoolIcon',
+  //   href: 'https://farm.bscclassic.org/nests'
+  // },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
