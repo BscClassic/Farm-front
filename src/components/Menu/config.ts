@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://farm.bscclassic.org/'
+    href: 'https://bscclassic.com/'
   },
   {
     label: 'Trade',
